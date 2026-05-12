@@ -5,7 +5,7 @@ import NoteDisplay from "../../components/NoteDisplay";
 import NotesHeader from "../../components/NotesHeader";
 import { COLORS } from "../../constants/Color";
 
-export default function Index() {
+export default function NoteDisplayScreen() {
   const currentTheme = useColorScheme();
   const isDark = currentTheme === "dark";
 
