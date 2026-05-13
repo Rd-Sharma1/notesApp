@@ -42,6 +42,14 @@ The project includes:
 - ImageBackground header
 - Theme support using `useColorScheme`
 - Responsive UI using `useWindowDimensions`
+- Floating action button navigation
+
+---
+
+# Routes
+
+- `/` → Notes Listing Screen
+- `/addNotesScreen` → Note Editor Screen
 
 ---
 
@@ -57,6 +65,6 @@ npx expo start
 # Future Improvements
 
 - Persistent note storage
-- Navigation between screens
 - Pinned notes
 - Better animations
+- Rich text support
