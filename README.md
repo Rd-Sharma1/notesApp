@@ -17,7 +17,7 @@ The project includes:
 
 ## Notes Screen
 
-![Notes Screen](./assets/images/noteViewScreenImage.jpeg)
+![Notes Screen](./assets/images/NoteViewScreen.png)
 
 ## Editor Screen
 
