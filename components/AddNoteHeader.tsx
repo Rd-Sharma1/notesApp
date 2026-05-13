@@ -1,5 +1,6 @@
 import { Ionicons } from "@expo/vector-icons";
 import { ImageBackground } from "expo-image";
+import { router } from "expo-router";
 import React from "react";
 
 import { Pressable, StyleSheet, Text, View } from "react-native";
@@ -16,7 +17,7 @@ const AddNoteHeader = ({ theme }) => {
       >
         <View style={styles.insideImageStyle}>
           <View style={styles.navBar}>
-            <Pressable style={styles.navBtnText}>
+            <Pressable style={styles.navBtnText} onPress={() => router.back()}>
               <Ionicons
                 name="chevron-back-outline"
                 size={Spacing.xl}
